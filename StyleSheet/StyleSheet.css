@@ -1,0 +1,29 @@
+:root {
+  --primary-color: #6366f1;
+  --primary-hover: #4f46e5;
+  --light-bg: #f8fafc;
+  --border-color: #e2e8f0;
+  --primary-gradient: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  --glass-bg: rgba(255, 255, 255, 0.15);
+  --glass-border: rgba(255, 255, 255, 0.18);
+}
+
+body {
+  background: var(--primary-gradient);
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.password-toggle {
+  font-size: x-large;
+  cursor: pointer;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  color: #6b7280;
+}
+
+label,
+.already {
+  color: white;
+}
