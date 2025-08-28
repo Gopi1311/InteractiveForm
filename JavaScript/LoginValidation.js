@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
 const foundUser = storedUsers.find(u => u.email === email && u.password === password);
      if (foundUser) {
     alert("✅ Successfully Logged In");
-    // redirect if needed
+    form.reset();
     // window.location.href = "dashboard.html";
   } else {
     alert("❌ User Not Found or Wrong Credentials");
