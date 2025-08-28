@@ -28,11 +28,12 @@ label,
   font-size: 0.9rem;
   margin-bottom: 0.3rem;
 }
-label{
+label {
   font-weight: bold;
 }
 
-#submitBtn,.card-header{
+#submitBtn,
+.card-header {
   background-color: rgba(2, 4, 113, 0.61);
 }
 

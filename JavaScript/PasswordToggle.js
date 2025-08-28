@@ -11,8 +11,9 @@ togglePassword?.addEventListener("click", () => {
   togglePassword.classList.toggle("bi-eye-slash-fill");
 });
 
-
-  //clear the error message when reset form
-  document.getElementById("resetBtn").addEventListener("click",()=>{
-    document.querySelectorAll(".is-invalid").forEach(clear=>clear.classList.remove("is-invalid"));
-  });
+//clear the error message when reset form
+document.getElementById("resetBtn").addEventListener("click", () => {
+  document
+    .querySelectorAll(".is-invalid")
+    .forEach((clear) => clear.classList.remove("is-invalid"));
+});

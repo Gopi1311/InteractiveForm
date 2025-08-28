@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     if (isValid) {
-       const newUser = {
+      const newUser = {
         firstName: document.getElementById("firstName").value.trim(),
         lastName: document.getElementById("lastName").value.trim(),
         email: document.getElementById("email").value.trim(),
@@ -124,22 +124,22 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const existingUsers = JSON.parse(localStorage.getItem("users")) || [];
 
-  // check if email already exists
-  const userExists = existingUsers.some(user => user.email === newUser.email);
-  if (userExists) {
-    alert("Email already registered!");
-    return;
-  }
+      // check if email already exists
+      const userExists = existingUsers.some(
+        (user) => user.email === newUser.email
+      );
+      if (userExists) {
+        alert("Email already registered!");
+        return;
+      }
 
-  // add new user
-  existingUsers.push(newUser);
-      localStorage.setItem("users",JSON.stringify(existingUsers));
+      // add new user
+      existingUsers.push(newUser);
+      localStorage.setItem("users", JSON.stringify(existingUsers));
       console.log(localStorage.getItem("user"));
       alert("Form Submitted successfully");
       window.location.href = "LoginForm.html";
       form.reset();
     }
   });
-
-
 });
