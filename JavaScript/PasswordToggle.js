@@ -12,7 +12,7 @@ togglePassword?.addEventListener("click", () => {
 });
 
 //clear the error message when reset form
-document.getElementById("resetBtn").addEventListener("click", () => {
+document.getElementById("reset-btn").addEventListener("click", () => {
   document
     .querySelectorAll(".is-invalid")
     .forEach((clear) => clear.classList.remove("is-invalid"));

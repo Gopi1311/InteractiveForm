@@ -37,9 +37,8 @@ label {
 }
 
 .invalid-feedback {
-  font-weight: bold;
-  color: rgb(146, 9, 9);
-  text-shadow: rgb(10, 10, 10) 0px 0px 10px;
+  color: whitesmoke;  
+  margin-left: 0.3rem;
   font-size: 0.75rem;
   margin-top: 0.2rem;
 }
