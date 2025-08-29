@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const showError = (id, msg) => {
     const el = document.getElementById(id);
-    const input = document.getElementById(id.replace("Error", "")); // match input by ID
+    const input = document.getElementById(id.replace("Error", "")); 
     if (el) {
       el.textContent = msg;
     }
