@@ -17,22 +17,9 @@ The form validates user input in real time and provides instant feedback before 
 ---
 
 ## 🛠️ Tech Stack
-- **Frontend:** HTML5, CSS3, JavaScript (ES6)
+- **Frontend:** HTML5, CSS3, JavaScript (ES6),Local Storage
 - **Styling:** Bootstrap 5
 - **Deployment:** GitHub Pages / Netlify / Vercel
 
----
 
-## 📸 Preview
-![Form Preview](./preview.png)  
-*(Add a screenshot or GIF of the form here)*
 
----
-
-## 📂 Folder Structure
-```bash
-interactive-form/
-│-- index.html       # Main HTML file
-│-- style.css        # Custom CSS (optional)
-│-- script.js        # Form validation & interactivity
-│-- README.md
